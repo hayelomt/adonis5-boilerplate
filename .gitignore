@@ -1,0 +1,11 @@
+node_modules
+build
+coverage
+.vscode
+.DS_STORE
+.env
+.env.testing
+tmp
+package-lock.json
+*.csv
+temp.js

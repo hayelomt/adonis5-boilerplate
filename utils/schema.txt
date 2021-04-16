@@ -1,0 +1,7 @@
+table.uuid('id').unique().primary();
+
+table.string('subject').notNullable();
+table.string('code').notNullable().unique();
+table.boolean('consider_for_rank').notNullable().defaultTo(true);
+
+table.timestamps(true, true);

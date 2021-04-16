@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "plugin:adonis/typescriptApp",
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error", { "semi": true, "printWidth": 80 }],
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "semi": "off",
+    "@typescript-eslint/naming-convention": "off"
+  }
+}
